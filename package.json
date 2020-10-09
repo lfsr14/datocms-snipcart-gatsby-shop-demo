@@ -1,5 +1,5 @@
 {
-  "name": "datocms-snipcart-gatsby-example",
+  "name": "datocms-client",
   "description": "An example project to demonstrate how you can integrate Gatsby, Snipcart and DatoCMS",
   "version": "1.0.0",
   "author": "Stefano Verna <s.verna@datocms.com>",
@@ -30,5 +30,14 @@
   },
   "devDependencies": {
     "prettier": "^1.12.0"
-  }
+  },
+  "main": "gatsby-browser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfsr14/datocms-snipcart-gatsby-shop-demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lfsr14/datocms-snipcart-gatsby-shop-demo/issues"
+  },
+  "homepage": "https://github.com/lfsr14/datocms-snipcart-gatsby-shop-demo#readme"
 }
