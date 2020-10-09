@@ -47,12 +47,12 @@ render={data => (
                 <Img sizes={product.image.sizes} />
               </div> <div className="Product__details">
                 <div className="Product__name">
-                  {product.name}
+                  {/* {product.name} */}
                   <div className="Product__price">
                     ${product.price}
                   </div>
                 </div>
-                <span className="Product__buy">AÑADIR!</span>
+                {/* <span className="Product__buy">AÑADIR!</span> */}
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    siteName: 'PELIS_APP',
+    siteName: 'PELIS APP',
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -15,7 +15,8 @@ module.exports = {
       resolve: 'gatsby-plugin-snipcart',
       options: {
         apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
-        autopop: true
+        autopop: true,
+        icon: 'src/images/favicon.ico'
       }
     },
   ],
