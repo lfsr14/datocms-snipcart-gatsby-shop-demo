@@ -1,5 +1,5 @@
 .Header {
-  background: #663399;
+  background: #CC0000;
   color: white;
   border-bottom: 3px solid white;
   box-shadow: 0 16px 0 black;
@@ -32,7 +32,7 @@
       position: absolute;
       top: 0;
       color: white;
-      background: #663399;
+      background: #CC0000;
       overflow: hidden;
       clip: rect(0,900px,0,0);
       display: block;
@@ -41,7 +41,7 @@
 
     &:after {
       left: 3px;
-      text-shadow: -2px 0 red;
+      text-shadow: -2px 0 black;
       animation: noise-anim 2s infinite linear alternate-reverse;
     }
 
