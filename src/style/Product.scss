@@ -5,17 +5,17 @@
 }
 
 .Product__image {
-  border: 3px solid black;
-  padding: 7px;
-  width: 100%;
-  position: relative;
-  margin-bottom: 25px;
-  box-shadow: 9px 9px black;
+  border: 2px solid black;
+ // padding: 7px;
+ width: 100%;
+ position: relative;
+ // margin-bottom: 25px;
+ // box-shadow: 9px 9px black;
 
-  img {
-    width: 100%;
-    display: block;
-  }
+ img {
+   width: 100%;
+   display: block;
+ }
 }
 
 .Product:hover .Product__image {

@@ -1,8 +1,8 @@
 .Header {
-  background: #CC0000;
+  background: black;
   color: white;
-  border-bottom: 3px solid white;
-  box-shadow: 0 16px 0 black;
+  border-bottom: 4px dashed #CC0000;
+  // box-shadow: 0 16px 0 black;
   transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
   margin: 50px;
 }

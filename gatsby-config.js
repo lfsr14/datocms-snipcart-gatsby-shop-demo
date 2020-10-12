@@ -1,4 +1,9 @@
-require("dotenv").config();
+require("dotenv").config(
+  { 
+    encoding: "ucs2",
+    path: `.env.${process.env.NODE_ENV}`
+  }
+);
 
 module.exports = {
   siteMetadata: {
@@ -14,9 +19,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-snipcart',
       options: {
-        apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
-        autopop: true,
-        icon: 'src/images/favicon.ico'
+        apiKey: 'Y2I2YWYzYTktOGIxMS00OTFmLWFiZWUtNWY4MTdiY2RiYzVmNjM3MzgxMjg2NzMwNjUxMDU0',
+        autopop: true
       }
     },
   ],
