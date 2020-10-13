@@ -31,6 +31,9 @@ export default () => (
     `}
 render={data => (
   <Layout site={data.site}>
+    <h1 className="labels-home">
+      TODO: FILTROS
+      </h1>
     <div className="Catalogue">
       {
         data.products.edges.map(({ node: product }) => (
@@ -60,6 +63,9 @@ render={data => (
         ))
       }
     </div>
+    <h1 className="labels-home border-footer">
+      Última actualización: DD-MM-AAAA
+    </h1>
   </Layout>
      )}
    />

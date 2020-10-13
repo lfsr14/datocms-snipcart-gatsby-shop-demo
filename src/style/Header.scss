@@ -4,7 +4,7 @@
   border-bottom: 4px dashed #CC0000;
   // box-shadow: 0 16px 0 black;
   transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
-  margin: 50px;
+  // margin: 50px;
 }
 
 .Header__body {
@@ -48,7 +48,7 @@
     &:before {
       content:attr(data-text);
       left: -3px;
-      text-shadow: 2px 0 blue;
+      text-shadow: 2px 0 white;
       animation: noise-anim-2 3s infinite linear alternate-reverse;
     }
   }
